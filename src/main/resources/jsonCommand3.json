@@ -1,0 +1,478 @@
+[
+    {
+        "$match": {
+            "$and": [
+                {
+                    "requesttime": {
+                        "$gte": "20251222000000",
+                        "$lte": "20251231142359"
+                    }
+                },
+                {
+                    "packagename": {
+                        "$in": [
+                            "NE1KN^ICHN^01"
+                        ]
+                    }
+                },
+                {
+                    "targetEventID": {
+                        "$in": [
+                            "P0199PCE07ICHN10_010"
+                        ]
+                    }
+                },
+                {
+                    "targetEventName": {
+                        "$in": [
+                            "NE1KN_ccNC_CHN_2501RU"
+                        ]
+                    }
+                },
+                {
+                    "testDv": {
+                        "$in": [
+                            "P"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "$group": {
+            "_id": {
+                "vin": "$vin",
+                "partNo": "$partNo"
+            },
+            "maxCreatedAt": {
+                "$max": "$createdAt"
+            }
+        }
+    },
+    {
+        "$lookup": {
+            "from": "StatDeviceDownload",
+            "let": {
+                "vin": "$_id.vin",
+                "partNo": "$_id.partNo",
+                "createdAt": "$maxCreatedAt"
+            },
+            "pipeline": [
+                {
+                    "$match": {
+                        "$expr": {
+                            "$and": [
+                                {
+                                    "$eq": [
+                                        "$vin",
+                                        "$$vin"
+                                    ]
+                                },
+                                {
+                                    "$eq": [
+                                        "$partNo",
+                                        "$$partNo"
+                                    ]
+                                },
+                                {
+                                    "$eq": [
+                                        "$createdAt",
+                                        "$$createdAt"
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "as": "matchdata"
+        }
+    },
+    {
+        "$unwind": "$matchdata"
+    },
+    {
+        "$facet": {
+            "download_ing_data": [
+                {
+                    "$match": {
+                        "$and": [
+                            {
+                                "matchdata.downloadresult": {
+                                    "$in": [
+                                        "0"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "$group": {
+                        "_id": {
+                            "partNo": "$matchdata.partNo",
+                            "targetEventID": "$matchdata.targetEventID",
+                            "downloadresult": "$matchdata.downloadresult"
+                        },
+                        "downloadresultcount": {
+                            "$sum": 1
+                        }
+                    }
+                },
+                {
+                    "$group": {
+                        "_id": {
+                            "partNo": "$_id.partNo",
+                            "targetEventID": "$_id.targetEventID"
+                        },
+                        "downloadresults": {
+                            "$push": {
+                                "downloadresult": "$_id.downloadresult",
+                                "count": "$downloadresultcount"
+                            }
+                        },
+                        "count": {
+                            "$sum": "$downloadresultcount"
+                        }
+                    }
+                }
+            ],
+            "update_ing_data": [
+                {
+                    "$match": {
+                        "$and": [
+                            {
+                                "matchdata.reportCode": {
+                                    "$in": [
+                                        "1002"
+                                    ]
+                                }
+                            },
+                            {
+                                "matchdata.isresultCode": ""
+                            }
+                        ]
+                    }
+                },
+                {
+                    "$group": {
+                        "_id": {
+                            "partNo": "$matchdata.partNo",
+                            "targetEventID": "$matchdata.targetEventID",
+                            "reportCode": "$matchdata.reportCode"
+                        },
+                        "reportCodecount": {
+                            "$sum": 1
+                        }
+                    }
+                },
+                {
+                    "$group": {
+                        "_id": {
+                            "partNo": "$_id.partNo",
+                            "targetEventID": "$_id.targetEventID"
+                        },
+                        "reportCodes": {
+                            "$push": {
+                                "reportCode": "$_id.reportCode",
+                                "count": "$reportCodecount"
+                            }
+                        },
+                        "count": {
+                            "$sum": "$reportCodecount"
+                        }
+                    }
+                }
+            ],
+            "download_data": [
+                {
+                    "$group": {
+                        "_id": {
+                            "partNo": "$matchdata.partNo",
+                            "targetEventID": "$matchdata.targetEventID",
+                            "srresultCode": "$matchdata.srresultCode"
+                        },
+                        "srresultCodecount": {
+                            "$sum": 1
+                        }
+                    }
+                },
+                {
+                    "$group": {
+                        "_id": {
+                            "partNo": "$_id.partNo",
+                            "targetEventID": "$_id.targetEventID"
+                        },
+                        "srresultCodes": {
+                            "$push": {
+                                "srresultCode": "$_id.srresultCode",
+                                "count": "$srresultCodecount"
+                            }
+                        },
+                        "count": {
+                            "$sum": "$srresultCodecount"
+                        }
+                    }
+                }
+            ],
+            "update_data": [
+                {
+                    "$group": {
+                        "_id": {
+                            "partNo": "$matchdata.partNo",
+                            "targetEventID": "$matchdata.targetEventID",
+                            "isresultCode": "$matchdata.isresultCode"
+                        },
+                        "isresultCodecount": {
+                            "$sum": 1
+                        }
+                    }
+                },
+                {
+                    "$group": {
+                        "_id": {
+                            "partNo": "$_id.partNo",
+                            "targetEventID": "$_id.targetEventID"
+                        },
+                        "isresultCodes": {
+                            "$push": {
+                                "isresultCode": "$_id.isresultCode",
+                                "count": "$isresultCodecount"
+                            }
+                        },
+                        "count": {
+                            "$sum": "$isresultCodecount"
+                        }
+                    }
+                }
+            ],
+            "vin_count": [
+                {
+                    "$group": {
+                        "_id": {
+                            "partNo": "$matchdata.partNo",
+                            "targetEventID": "$matchdata.targetEventID"
+                        },
+                        "vins": {
+                            "$addToSet": "$matchdata.vin"
+                        }
+                    }
+                },
+                {
+                    "$unwind": "$vins"
+                },
+                {
+                    "$group": {
+                        "_id": "$_id",
+                        "carCount": {
+                            "$sum": 1
+                        }
+                    }
+                }
+            ],
+            "download_fail_data": [
+                {
+                    "$match": {
+                        "$and": [
+                            {
+                                "matchdata.srresultCode": {
+                                    "$in": [
+                                        "901",
+                                        "903",
+                                        "905",
+                                        "951",
+                                        "952",
+                                        "953",
+                                        "954"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "$group": {
+                        "_id": {
+                            "partNo": "$matchdata.partNo",
+                            "targetEventID": "$matchdata.targetEventID",
+                            "sourceEventID": "$matchdata.sourceEventID",
+                            "srresultCode": "$matchdata.srresultCode",
+                            "vin": "$matchdata.vin"
+                        }
+                    }
+                },
+                {
+                    "$group": {
+                        "_id": {
+                            "partNo": "$_id.partNo",
+                            "targetEventID": "$_id.targetEventID"
+                        },
+                        "downloadFailDetail": {
+                            "$push": {
+                                "sourceEventID": "$_id.sourceEventID",
+                                "srresultCode": "$_id.srresultCode",
+                                "vin": "$_id.vin"
+                            }
+                        }
+                    }
+                }
+            ],
+            "update_fail_data": [
+                {
+                    "$match": {
+                        "$and": [
+                            {
+                                "matchdata.isresultCode": {
+                                    "$in": [
+                                        "1400",
+                                        "1402",
+                                        "1403",
+                                        "1404",
+                                        "1405",
+                                        "1406",
+                                        "1407",
+                                        "1408",
+                                        "1409",
+                                        "1410",
+                                        "1411",
+                                        "1412",
+                                        "1413",
+                                        "1450",
+                                        "1451",
+                                        "1452",
+                                        "1453",
+                                        "1454",
+                                        "1455",
+                                        "1456",
+                                        "1457",
+                                        "1458",
+                                        "1459",
+                                        "1460",
+                                        "1461",
+                                        "1462",
+                                        "1463",
+                                        "1464",
+                                        "1465",
+                                        "1466",
+                                        "1467",
+                                        "1468",
+                                        "1469",
+                                        "1470",
+                                        "1471",
+                                        "1472",
+                                        "1473",
+                                        "1474",
+                                        "1475",
+                                        "1476",
+                                        "1477",
+                                        "1478",
+                                        "1479",
+                                        "1480",
+                                        "1481",
+                                        "1482",
+                                        "1483",
+                                        "1484",
+                                        "1485",
+                                        "1486",
+                                        "1487",
+                                        "1488",
+                                        "1489",
+                                        "1490",
+                                        "1491",
+                                        "1492",
+                                        "1493",
+                                        "1494",
+                                        "1495",
+                                        "1496",
+                                        "1497",
+                                        "1498",
+                                        "1499",
+                                        "1500",
+                                        "1501",
+                                        "1550",
+                                        "1551",
+                                        "1552",
+                                        "1553",
+                                        "1554",
+                                        "1555",
+                                        "1556",
+                                        "1557",
+                                        "1558",
+                                        "1559",
+                                        "1560",
+                                        "1561",
+                                        "1562",
+                                        "1563",
+                                        "1564",
+                                        "1565",
+                                        "1566",
+                                        "1567",
+                                        "1568",
+                                        "1569",
+                                        "1570",
+                                        "1571",
+                                        "1572",
+                                        "1573",
+                                        "1574",
+                                        "1575",
+                                        "1576",
+                                        "1577",
+                                        "1578",
+                                        "1579",
+                                        "1580",
+                                        "1581",
+                                        "1582",
+                                        "1583",
+                                        "1584",
+                                        "1585",
+                                        "1586",
+                                        "1587",
+                                        "1588",
+                                        "1589",
+                                        "1590",
+                                        "1591",
+                                        "1592",
+                                        "1593",
+                                        "1594",
+                                        "1595",
+                                        "1596",
+                                        "1597",
+                                        "1598",
+                                        "1599"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "$group": {
+                        "_id": {
+                            "partNo": "$matchdata.partNo",
+                            "targetEventID": "$matchdata.targetEventID",
+                            "sourceEventID": "$matchdata.sourceEventID",
+                            "isresultCode": "$matchdata.isresultCode",
+                            "vin": "$matchdata.vin"
+                        }
+                    }
+                },
+                {
+                    "$group": {
+                        "_id": {
+                            "partNo": "$_id.partNo",
+                            "targetEventID": "$_id.targetEventID"
+                        },
+                        "updateFailDetail": {
+                            "$push": {
+                                "sourceEventID": "$_id.sourceEventID",
+                                "isresultCode": "$_id.isresultCode",
+                                "vin": "$_id.vin"
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    }
+]

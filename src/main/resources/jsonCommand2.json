@@ -1,0 +1,277 @@
+[
+  {
+    "$match": {
+      "$and": [
+        {
+          "requesttime": {
+            "$gte": "20251222143700",
+            "$lte": "20251225143659"
+          }
+        },
+        {
+          "packagename": {
+            "$in": [
+              "NE1KN^ICHN^01"
+            ]
+          }
+        },
+        {
+          "targetEventID": {
+            "$in": [
+              "P0199PCE07ICHN10_010"
+            ]
+          }
+        },
+        {
+          "targetEventName": {
+            "$in": [
+              "NE1KN_ccNC_CHN_2501RU"
+            ]
+          }
+        },
+        {
+          "testDv": {
+            "$in": [
+              "P"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "$group": {
+      "_id": {
+        "vin": "$vin",
+        "partNo": "$partNo"
+      },
+      "maxCreatedAt": {
+        "$max": "$createdAt"
+      }
+    }
+  },
+  {
+    "$lookup": {
+      "from": "StatDeviceDownload",
+      "let": {
+        "vin": "$_id.vin",
+        "partNo": "$_id.partNo",
+        "createdAt": "$maxCreatedAt"
+      },
+      "pipeline": [
+        {
+          "$match": {
+            "$expr": {
+              "$and": [
+                {
+                  "$eq": [
+                    "$vin",
+                    "$$vin"
+                  ]
+                },
+                {
+                  "$eq": [
+                    "$partNo",
+                    "$$partNo"
+                  ]
+                },
+                {
+                  "$eq": [
+                    "$createdAt",
+                    "$$createdAt"
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "as": "matchdata"
+    }
+  },
+  {
+    "$unwind": "$matchdata"
+  },
+  {
+    "$facet": {
+      "download_ing_data": [
+        {
+          "$match": {
+            "$and": [
+              {
+                "matchdata.downloadresult": {
+                  "$in": [
+                    "0"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "$group": {
+            "_id": {
+              "packagename": "$matchdata.packagename",
+              "downloadresult": "$matchdata.downloadresult"
+            },
+            "downloadresultcount": {
+              "$sum": 1
+            }
+          }
+        },
+        {
+          "$group": {
+            "_id": {
+              "packagename": "$_id.packagename"
+            },
+            "downloadresults": {
+              "$push": {
+                "downloadresult": "$_id.downloadresult",
+                "count": "$downloadresultcount"
+              }
+            },
+            "count": {
+              "$sum": "$downloadresultcount"
+            }
+          }
+        }
+      ],
+      "update_ing_data": [
+        {
+          "$match": {
+            "$and": [
+              {
+                "matchdata.reportCode": {
+                  "$in": [
+                    "1002"
+                  ]
+                }
+              },
+              {
+                "matchdata.isresultCode": ""
+              }
+            ]
+          }
+        },
+        {
+          "$group": {
+            "_id": {
+              "packagename": "$matchdata.packagename",
+              "reportCode": "$matchdata.reportCode"
+            },
+            "reportCodecount": {
+              "$sum": 1
+            }
+          }
+        },
+        {
+          "$group": {
+            "_id": {
+              "packagename": "$_id.packagename"
+            },
+            "reportCodes": {
+              "$push": {
+                "reportCode": "$_id.reportCode",
+                "count": "$reportCodecount"
+              }
+            },
+            "count": {
+              "$sum": "$reportCodecount"
+            }
+          }
+        }
+      ],
+      "download_data": [
+        {
+          "$group": {
+            "_id": {
+              "packagename": "$matchdata.packagename",
+              "srresultCode": "$matchdata.srresultCode"
+            },
+            "srresultCodecount": {
+              "$sum": 1
+            }
+          }
+        },
+        {
+          "$sort": {
+            "_id.srresultCode": 1
+          }
+        },
+        {
+          "$group": {
+            "_id": {
+              "packagename": "$_id.packagename"
+            },
+            "srresultCodes": {
+              "$push": {
+                "srresultCode": "$_id.srresultCode",
+                "count": "$srresultCodecount"
+              }
+            },
+            "count": {
+              "$sum": "$srresultCodecount"
+            }
+          }
+        }
+      ],
+      "update_data": [
+        {
+          "$group": {
+            "_id": {
+              "packagename": "$matchdata.packagename",
+              "isresultCode": "$matchdata.isresultCode"
+            },
+            "isresultCodecount": {
+              "$sum": 1
+            }
+          }
+        },
+        {
+          "$sort": {
+            "_id.isresultCode": 1
+          }
+        },
+        {
+          "$group": {
+            "_id": {
+              "packagename": "$_id.packagename"
+            },
+            "isresultCodes": {
+              "$push": {
+                "isresultCode": "$_id.isresultCode",
+                "count": "$isresultCodecount"
+              }
+            },
+            "count": {
+              "$sum": "$isresultCodecount"
+            }
+          }
+        }
+      ],
+      "part_count": [
+        {
+          "$group": {
+            "_id": {
+              "packagename": "$matchdata.packagename"
+            },
+            "partNos": {
+              "$addToSet": "$matchdata.partNo"
+            }
+          }
+        },
+        {
+          "$unwind": "$partNos"
+        },
+        {
+          "$group": {
+            "_id": "$_id",
+            "partNoCount": {
+              "$sum": 1
+            }
+          }
+        }
+      ]
+    }
+  }
+]

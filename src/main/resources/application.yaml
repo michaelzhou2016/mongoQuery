@@ -1,0 +1,13 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: mongoQuery
+  mongodb:
+    uri: mongodb://username:password@x1:27017,x2:27017/ota?replicaSet=rep-xxx&authSource=admin
+# 日志配置
+logging:
+  level:
+    org.springframework.data.mongodb: DEBUG
+#    org.mongodb.driver: DEBUG
+

@@ -1,0 +1,3392 @@
+{
+    "verId": "P0199PCE07ICHN10_008",
+    "dpoyVerId": "PCE251119000044",
+    "resultCd": "0001",
+    "pckgSt": "DPOY_ABLE",
+    "cdnUrlList": [
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.250227.2503C13",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701482/5e101a48174c41fea995f10af212670a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701482"
+        },
+        {
+            "scomoNodeNm": "96560NI870_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00215_00659",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701483/84206b82918b4e0789274b3d27dfd2a1.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701483"
+        },
+        {
+            "scomoNodeNm": "96560NI870_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.152.250616",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701480/b3fcbe1fcd5c42588aff634396d7d3de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701480"
+        },
+        {
+            "scomoNodeNm": "96560NI870_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.045.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701481/6387b98345664e02ac577e1871bfbd00.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701481"
+        },
+        {
+            "scomoNodeNm": "MAINCONFIG",
+            "srcVer": "***",
+            "tgtVer": "250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701484/7460474_20250728_1753681048832.json",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701484"
+        },
+        {
+            "scomoNodeNm": "96560NI280_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.033.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701474/470199bfeace4051bf812babc1d07423.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701474"
+        },
+        {
+            "scomoNodeNm": "96560NI280_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.240705.2425111",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701475/89b5643e203348fd9e65abb82d4a1162.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701475"
+        },
+        {
+            "scomoNodeNm": "96560NI280_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.ccNC.001.001.240708",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701472/bada217c15414aabb28f560d3621ed89.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701472"
+        },
+        {
+            "scomoNodeNm": "96560NI280_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.129.240517",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701473/b71695c779304d379a8400386dc96cb0.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701473"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250808",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701478/4419eb22b5c34c05873ad689a0705121.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701478"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250828",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701479/2e25d19c7c2b45d195f3fe833b48b5c3.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701479"
+        },
+        {
+            "scomoNodeNm": "96560NI280_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00165_00512",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701476/4e00b19336704444a8d7c30b33ee48de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701476"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701477/0d818fed1864401d8f92da9cf86eb6ce.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701477"
+        },
+        {
+            "scomoNodeNm": "96560NI280_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.ccNC.001.001.240708",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/286796/bada217c15414aabb28f560d3621ed89.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "286796"
+        },
+        {
+            "scomoNodeNm": "96560NI280_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.129.240517",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/286797/b71695c779304d379a8400386dc96cb0.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "286797"
+        },
+        {
+            "scomoNodeNm": "96560NI280_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.033.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/286798/470199bfeace4051bf812babc1d07423.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "286798"
+        },
+        {
+            "scomoNodeNm": "96560NI280_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.240705.2425111",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/286799/89b5643e203348fd9e65abb82d4a1162.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "286799"
+        },
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.250227.2503C13",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/286804/5e101a48174c41fea995f10af212670a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "286804"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250808",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701018/4419eb22b5c34c05873ad689a0705121.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701018"
+        },
+        {
+            "scomoNodeNm": "96560NI280_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.033.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701530/470199bfeace4051bf812babc1d07423.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701530"
+        },
+        {
+            "scomoNodeNm": "96560NI870_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00215_00659",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/286805/84206b82918b4e0789274b3d27dfd2a1.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "286805"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250828",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701019/2e25d19c7c2b45d195f3fe833b48b5c3.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701019"
+        },
+        {
+            "scomoNodeNm": "96560NI280_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.240705.2425111",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701531/89b5643e203348fd9e65abb82d4a1162.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701531"
+        },
+        {
+            "scomoNodeNm": "MAINCONFIG",
+            "srcVer": "***",
+            "tgtVer": "250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/286806/7460474_20250728_1753681048832.json",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "286806"
+        },
+        {
+            "scomoNodeNm": "96560NI280_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00165_00512",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701016/4e00b19336704444a8d7c30b33ee48de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701016"
+        },
+        {
+            "scomoNodeNm": "96560NI280_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.ccNC.001.001.240708",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701528/bada217c15414aabb28f560d3621ed89.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701528"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701017/0d818fed1864401d8f92da9cf86eb6ce.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701017"
+        },
+        {
+            "scomoNodeNm": "96560NI280_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.129.240517",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701529/b71695c779304d379a8400386dc96cb0.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701529"
+        },
+        {
+            "scomoNodeNm": "96560NI280_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00165_00512",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/286800/4e00b19336704444a8d7c30b33ee48de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "286800"
+        },
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.250227.2503C13",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701022/5e101a48174c41fea995f10af212670a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701022"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250808",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701534/4419eb22b5c34c05873ad689a0705121.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701534"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/286801/0d818fed1864401d8f92da9cf86eb6ce.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "286801"
+        },
+        {
+            "scomoNodeNm": "96560NI870_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00215_00659",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701023/84206b82918b4e0789274b3d27dfd2a1.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701023"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250828",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701535/2e25d19c7c2b45d195f3fe833b48b5c3.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701535"
+        },
+        {
+            "scomoNodeNm": "96560NI870_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.152.250616",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/286802/b3fcbe1fcd5c42588aff634396d7d3de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "286802"
+        },
+        {
+            "scomoNodeNm": "96560NI870_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.152.250616",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701020/b3fcbe1fcd5c42588aff634396d7d3de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701020"
+        },
+        {
+            "scomoNodeNm": "96560NI280_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00165_00512",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701532/4e00b19336704444a8d7c30b33ee48de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701532"
+        },
+        {
+            "scomoNodeNm": "96560NI870_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.045.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/286803/6387b98345664e02ac577e1871bfbd00.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "286803"
+        },
+        {
+            "scomoNodeNm": "96560NI870_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.045.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701021/6387b98345664e02ac577e1871bfbd00.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701021"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701533/0d818fed1864401d8f92da9cf86eb6ce.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701533"
+        },
+        {
+            "scomoNodeNm": "96560NI280_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.033.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701014/470199bfeace4051bf812babc1d07423.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701014"
+        },
+        {
+            "scomoNodeNm": "96560NI280_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.240705.2425111",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701015/89b5643e203348fd9e65abb82d4a1162.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701015"
+        },
+        {
+            "scomoNodeNm": "96560NI280_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.ccNC.001.001.240708",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701012/bada217c15414aabb28f560d3621ed89.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701012"
+        },
+        {
+            "scomoNodeNm": "96560NI280_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.129.240517",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701013/b71695c779304d379a8400386dc96cb0.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701013"
+        },
+        {
+            "scomoNodeNm": "96560NI280_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.240705.2425111",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700010/89b5643e203348fd9e65abb82d4a1162.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700010"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701546/0d818fed1864401d8f92da9cf86eb6ce.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701546"
+        },
+        {
+            "scomoNodeNm": "96560NI280_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00165_00512",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700011/4e00b19336704444a8d7c30b33ee48de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700011"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250808",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701547/4419eb22b5c34c05873ad689a0705121.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701547"
+        },
+        {
+            "scomoNodeNm": "96560NI280_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.129.240517",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700008/b71695c779304d379a8400386dc96cb0.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700008"
+        },
+        {
+            "scomoNodeNm": "96560NI280_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.240705.2425111",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701544/89b5643e203348fd9e65abb82d4a1162.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701544"
+        },
+        {
+            "scomoNodeNm": "96560NI280_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.033.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700009/470199bfeace4051bf812babc1d07423.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700009"
+        },
+        {
+            "scomoNodeNm": "96560NI280_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00165_00512",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701545/4e00b19336704444a8d7c30b33ee48de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701545"
+        },
+        {
+            "scomoNodeNm": "96560NI870_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.152.250616",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700014/b3fcbe1fcd5c42588aff634396d7d3de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700014"
+        },
+        {
+            "scomoNodeNm": "96560NI870_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.045.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701550/6387b98345664e02ac577e1871bfbd00.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701550"
+        },
+        {
+            "scomoNodeNm": "96560NI870_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.045.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700015/6387b98345664e02ac577e1871bfbd00.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700015"
+        },
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.250227.2503C13",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701551/5e101a48174c41fea995f10af212670a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701551"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700012/0d818fed1864401d8f92da9cf86eb6ce.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700012"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250828",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701548/2e25d19c7c2b45d195f3fe833b48b5c3.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701548"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250808",
+            "cdnUrl": "/package/sop/20250812/4419eb22b5c34c05873ad689a0705121.enc",
+            "cdnSuccYn": "N",
+            "retryCount": "1",
+            "scomoFilId": "700013"
+        },
+        {
+            "scomoNodeNm": "96560NI870_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.152.250616",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701549/b3fcbe1fcd5c42588aff634396d7d3de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701549"
+        },
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.250227.2503C13",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701538/5e101a48174c41fea995f10af212670a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701538"
+        },
+        {
+            "scomoNodeNm": "96560NI870_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00215_00659",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701539/84206b82918b4e0789274b3d27dfd2a1.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701539"
+        },
+        {
+            "scomoNodeNm": "MAINCONFIG",
+            "srcVer": "***",
+            "tgtVer": "250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701024/7460474_20250728_1753681048832.json",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701024"
+        },
+        {
+            "scomoNodeNm": "96560NI870_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.152.250616",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701536/b3fcbe1fcd5c42588aff634396d7d3de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701536"
+        },
+        {
+            "scomoNodeNm": "96560NI870_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.045.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701537/6387b98345664e02ac577e1871bfbd00.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701537"
+        },
+        {
+            "scomoNodeNm": "96560NI280_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.129.240517",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701542/b71695c779304d379a8400386dc96cb0.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701542"
+        },
+        {
+            "scomoNodeNm": "96560NI280_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.ccNC.001.001.240708",
+            "cdnUrl": "/package/sop/20240711/bada217c15414aabb28f560d3621ed89.enc",
+            "cdnSuccYn": "N",
+            "retryCount": "1",
+            "scomoFilId": "700007"
+        },
+        {
+            "scomoNodeNm": "96560NI280_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.033.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701543/470199bfeace4051bf812babc1d07423.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701543"
+        },
+        {
+            "scomoNodeNm": "MAINCONFIG",
+            "srcVer": "***",
+            "tgtVer": "250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701540/7460474_20250728_1753681048832.json",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701540"
+        },
+        {
+            "scomoNodeNm": "96560NI280_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.ccNC.001.001.240708",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701541/bada217c15414aabb28f560d3621ed89.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701541"
+        },
+        {
+            "scomoNodeNm": "96560NI870_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.152.250616",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701562/b3fcbe1fcd5c42588aff634396d7d3de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701562"
+        },
+        {
+            "scomoNodeNm": "96560NI870_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.045.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701563/6387b98345664e02ac577e1871bfbd00.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701563"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250808",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701560/4419eb22b5c34c05873ad689a0705121.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701560"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250828",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701561/2e25d19c7c2b45d195f3fe833b48b5c3.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701561"
+        },
+        {
+            "scomoNodeNm": "MAINCONFIG",
+            "srcVer": "***",
+            "tgtVer": "250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701566/7460474_20250728_1753681048832.json",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701566"
+        },
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.250227.2503C13",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701564/5e101a48174c41fea995f10af212670a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701564"
+        },
+        {
+            "scomoNodeNm": "96560NI870_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00215_00659",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701565/84206b82918b4e0789274b3d27dfd2a1.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701565"
+        },
+        {
+            "scomoNodeNm": "MAINCONFIG",
+            "srcVer": "***",
+            "tgtVer": "250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700018/7460474_20250728_1753681048832.json",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700018"
+        },
+        {
+            "scomoNodeNm": "96560NI280_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.ccNC.001.001.240708",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701554/bada217c15414aabb28f560d3621ed89.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701554"
+        },
+        {
+            "scomoNodeNm": "96560NI280_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.129.240517",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701555/b71695c779304d379a8400386dc96cb0.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701555"
+        },
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.250227.2503C13",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700016/5e101a48174c41fea995f10af212670a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700016"
+        },
+        {
+            "scomoNodeNm": "96560NI870_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00215_00659",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701552/84206b82918b4e0789274b3d27dfd2a1.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701552"
+        },
+        {
+            "scomoNodeNm": "96560NI870_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00215_00659",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700017/84206b82918b4e0789274b3d27dfd2a1.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700017"
+        },
+        {
+            "scomoNodeNm": "MAINCONFIG",
+            "srcVer": "***",
+            "tgtVer": "250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701553/7460474_20250728_1753681048832.json",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701553"
+        },
+        {
+            "scomoNodeNm": "96560NI280_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00165_00512",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701558/4e00b19336704444a8d7c30b33ee48de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701558"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701559/0d818fed1864401d8f92da9cf86eb6ce.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701559"
+        },
+        {
+            "scomoNodeNm": "96560NI280_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.033.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701556/470199bfeace4051bf812babc1d07423.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701556"
+        },
+        {
+            "scomoNodeNm": "96560NI280_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.240705.2425111",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701557/89b5643e203348fd9e65abb82d4a1162.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701557"
+        },
+        {
+            "scomoNodeNm": "96560NI280_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.240705.2425111",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700554/89b5643e203348fd9e65abb82d4a1162.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700554"
+        },
+        {
+            "scomoNodeNm": "96560NI280_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00165_00512",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700555/4e00b19336704444a8d7c30b33ee48de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700555"
+        },
+        {
+            "scomoNodeNm": "96560NI280_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.129.240517",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700552/b71695c779304d379a8400386dc96cb0.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700552"
+        },
+        {
+            "scomoNodeNm": "96560NI280_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.033.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700553/470199bfeace4051bf812babc1d07423.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700553"
+        },
+        {
+            "scomoNodeNm": "96560NI870_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.152.250616",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700558/b3fcbe1fcd5c42588aff634396d7d3de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700558"
+        },
+        {
+            "scomoNodeNm": "96560NI870_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.045.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700559/6387b98345664e02ac577e1871bfbd00.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700559"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700556/0d818fed1864401d8f92da9cf86eb6ce.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700556"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250808",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700557/4419eb22b5c34c05873ad689a0705121.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700557"
+        },
+        {
+            "scomoNodeNm": "96560NI280_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.ccNC.001.001.240708",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700551/bada217c15414aabb28f560d3621ed89.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700551"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250808",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/704154/4419eb22b5c34c05873ad689a0705121.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "704154"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250828",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/704155/2e25d19c7c2b45d195f3fe833b48b5c3.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "704155"
+        },
+        {
+            "scomoNodeNm": "96560NI280_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00165_00512",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/704152/4e00b19336704444a8d7c30b33ee48de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "704152"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/704153/0d818fed1864401d8f92da9cf86eb6ce.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "704153"
+        },
+        {
+            "scomoNodeNm": "96560NI870_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.045.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/704158/6387b98345664e02ac577e1871bfbd00.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "704158"
+        },
+        {
+            "scomoNodeNm": "96560NI280_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.ccNC.001.001.240708",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700063/bada217c15414aabb28f560d3621ed89.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700063"
+        },
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.250227.2503C13",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/704159/5e101a48174c41fea995f10af212670a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "704159"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.251030",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/704156/461f955c243344eda55bbe32d4b2f53c.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "704156"
+        },
+        {
+            "scomoNodeNm": "96560NI870_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.152.250616",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/704157/b3fcbe1fcd5c42588aff634396d7d3de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "704157"
+        },
+        {
+            "scomoNodeNm": "MAINCONFIG",
+            "srcVer": "***",
+            "tgtVer": "250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700562/7460474_20250728_1753681048832.json",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700562"
+        },
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.250227.2503C13",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700560/5e101a48174c41fea995f10af212670a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700560"
+        },
+        {
+            "scomoNodeNm": "96560NI870_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00215_00659",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700561/84206b82918b4e0789274b3d27dfd2a1.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700561"
+        },
+        {
+            "scomoNodeNm": "96560NI280_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.033.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/704150/470199bfeace4051bf812babc1d07423.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "704150"
+        },
+        {
+            "scomoNodeNm": "96560NI280_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.240705.2425111",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/704151/89b5643e203348fd9e65abb82d4a1162.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "704151"
+        },
+        {
+            "scomoNodeNm": "96560NI280_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.ccNC.001.001.240708",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/704148/bada217c15414aabb28f560d3621ed89.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "704148"
+        },
+        {
+            "scomoNodeNm": "96560NI280_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.129.240517",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/704149/b71695c779304d379a8400386dc96cb0.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "704149"
+        },
+        {
+            "scomoNodeNm": "MAINCONFIG",
+            "srcVer": "***",
+            "tgtVer": "250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700074/7460474_20250728_1753681048832.json",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700074"
+        },
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.250227.2503C13",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700072/5e101a48174c41fea995f10af212670a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700072"
+        },
+        {
+            "scomoNodeNm": "96560NI870_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00215_00659",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700073/84206b82918b4e0789274b3d27dfd2a1.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700073"
+        },
+        {
+            "scomoNodeNm": "96560NI280_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.240705.2425111",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700066/89b5643e203348fd9e65abb82d4a1162.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700066"
+        },
+        {
+            "scomoNodeNm": "MAINCONFIG",
+            "srcVer": "***",
+            "tgtVer": "250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/704162/7460474_20250728_1753681048832.json",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "704162"
+        },
+        {
+            "scomoNodeNm": "96560NI280_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00165_00512",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700067/4e00b19336704444a8d7c30b33ee48de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700067"
+        },
+        {
+            "scomoNodeNm": "96560NI280_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.129.240517",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700064/b71695c779304d379a8400386dc96cb0.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700064"
+        },
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "###",
+            "tgtVer": "ccNC.CHN.HMC.251017.2503C19",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/704160/ef666e55b679447ba4fa51f585c3883a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "704160"
+        },
+        {
+            "scomoNodeNm": "96560NI280_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.033.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700065/470199bfeace4051bf812babc1d07423.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700065"
+        },
+        {
+            "scomoNodeNm": "96560NI870_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00215_00659",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/704161/84206b82918b4e0789274b3d27dfd2a1.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "704161"
+        },
+        {
+            "scomoNodeNm": "96560NI870_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.152.250616",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700070/b3fcbe1fcd5c42588aff634396d7d3de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700070"
+        },
+        {
+            "scomoNodeNm": "96560NI870_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.045.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700071/6387b98345664e02ac577e1871bfbd00.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700071"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700068/0d818fed1864401d8f92da9cf86eb6ce.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700068"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250808",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700069/4419eb22b5c34c05873ad689a0705121.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700069"
+        },
+        {
+            "scomoNodeNm": "96560NI870_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.152.250616",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701114/b3fcbe1fcd5c42588aff634396d7d3de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701114"
+        },
+        {
+            "scomoNodeNm": "96560NI870_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.045.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701115/6387b98345664e02ac577e1871bfbd00.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701115"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250808",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701112/4419eb22b5c34c05873ad689a0705121.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701112"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250828",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701113/2e25d19c7c2b45d195f3fe833b48b5c3.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701113"
+        },
+        {
+            "scomoNodeNm": "MAINCONFIG",
+            "srcVer": "***",
+            "tgtVer": "250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701118/7460474_20250728_1753681048832.json",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701118"
+        },
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.250227.2503C13",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701116/5e101a48174c41fea995f10af212670a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701116"
+        },
+        {
+            "scomoNodeNm": "96560NI870_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00215_00659",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701117/84206b82918b4e0789274b3d27dfd2a1.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701117"
+        },
+        {
+            "scomoNodeNm": "96560NI280_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.ccNC.001.001.240708",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701106/bada217c15414aabb28f560d3621ed89.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701106"
+        },
+        {
+            "scomoNodeNm": "96560NI280_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.129.240517",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701107/b71695c779304d379a8400386dc96cb0.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701107"
+        },
+        {
+            "scomoNodeNm": "96560NI280_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00165_00512",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701110/4e00b19336704444a8d7c30b33ee48de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701110"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701111/0d818fed1864401d8f92da9cf86eb6ce.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701111"
+        },
+        {
+            "scomoNodeNm": "96560NI280_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.033.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701108/470199bfeace4051bf812babc1d07423.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701108"
+        },
+        {
+            "scomoNodeNm": "96560NI280_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.240705.2425111",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701109/89b5643e203348fd9e65abb82d4a1162.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701109"
+        },
+        {
+            "scomoNodeNm": "96560NI280_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.ccNC.001.001.240708",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/543995/bada217c15414aabb28f560d3621ed89.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "543995"
+        },
+        {
+            "scomoNodeNm": "96560NI280_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.129.240517",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/543996/b71695c779304d379a8400386dc96cb0.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "543996"
+        },
+        {
+            "scomoNodeNm": "96560NI280_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.033.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/543997/470199bfeace4051bf812babc1d07423.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "543997"
+        },
+        {
+            "scomoNodeNm": "96560NI280_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.240705.2425111",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/543998/89b5643e203348fd9e65abb82d4a1162.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "543998"
+        },
+        {
+            "scomoNodeNm": "96560NI280_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00165_00512",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/543999/4e00b19336704444a8d7c30b33ee48de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "543999"
+        },
+        {
+            "scomoNodeNm": "96560NI280_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00165_00512",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701706/4e00b19336704444a8d7c30b33ee48de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701706"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701707/0d818fed1864401d8f92da9cf86eb6ce.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701707"
+        },
+        {
+            "scomoNodeNm": "96560NI280_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.033.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701704/470199bfeace4051bf812babc1d07423.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701704"
+        },
+        {
+            "scomoNodeNm": "96560NI280_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.240705.2425111",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701705/89b5643e203348fd9e65abb82d4a1162.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701705"
+        },
+        {
+            "scomoNodeNm": "96560NI870_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.152.250616",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701710/b3fcbe1fcd5c42588aff634396d7d3de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701710"
+        },
+        {
+            "scomoNodeNm": "96560NI870_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.045.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701711/6387b98345664e02ac577e1871bfbd00.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701711"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250808",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701708/4419eb22b5c34c05873ad689a0705121.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701708"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250828",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701709/2e25d19c7c2b45d195f3fe833b48b5c3.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701709"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544000/0d818fed1864401d8f92da9cf86eb6ce.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544000"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250808",
+            "cdnUrl": "sumsNAS/package/sop/20250812/4419eb22b5c34c05873ad689a0705121.enc",
+            "cdnSuccYn": "N",
+            "retryCount": "1",
+            "scomoFilId": "544001"
+        },
+        {
+            "scomoNodeNm": "96560NI870_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.152.250616",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544002/b3fcbe1fcd5c42588aff634396d7d3de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544002"
+        },
+        {
+            "scomoNodeNm": "96560NI870_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.045.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544003/6387b98345664e02ac577e1871bfbd00.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544003"
+        },
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.250227.2503C13",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544004/5e101a48174c41fea995f10af212670a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544004"
+        },
+        {
+            "scomoNodeNm": "96560NI280_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.ccNC.001.001.240708",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701702/bada217c15414aabb28f560d3621ed89.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701702"
+        },
+        {
+            "scomoNodeNm": "96560NI870_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00215_00659",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544005/84206b82918b4e0789274b3d27dfd2a1.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544005"
+        },
+        {
+            "scomoNodeNm": "96560NI280_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.129.240517",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701703/b71695c779304d379a8400386dc96cb0.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701703"
+        },
+        {
+            "scomoNodeNm": "MAINCONFIG",
+            "srcVer": "***",
+            "tgtVer": "250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544006/7460474_20250728_1753681048832.json",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544006"
+        },
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.250227.2503C13",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701210/5e101a48174c41fea995f10af212670a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701210"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250828",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701722/2e25d19c7c2b45d195f3fe833b48b5c3.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701722"
+        },
+        {
+            "scomoNodeNm": "96560NI870_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00215_00659",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701211/84206b82918b4e0789274b3d27dfd2a1.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701211"
+        },
+        {
+            "scomoNodeNm": "96560NI870_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.152.250616",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701723/b3fcbe1fcd5c42588aff634396d7d3de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701723"
+        },
+        {
+            "scomoNodeNm": "96560NI870_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.152.250616",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701208/b3fcbe1fcd5c42588aff634396d7d3de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701208"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701720/0d818fed1864401d8f92da9cf86eb6ce.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701720"
+        },
+        {
+            "scomoNodeNm": "96560NI870_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.045.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701209/6387b98345664e02ac577e1871bfbd00.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701209"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250808",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701721/4419eb22b5c34c05873ad689a0705121.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701721"
+        },
+        {
+            "scomoNodeNm": "96560NI280_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.129.240517",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701214/b71695c779304d379a8400386dc96cb0.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701214"
+        },
+        {
+            "scomoNodeNm": "96560NI870_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00215_00659",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701726/84206b82918b4e0789274b3d27dfd2a1.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701726"
+        },
+        {
+            "scomoNodeNm": "96560NI280_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.033.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701215/470199bfeace4051bf812babc1d07423.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701215"
+        },
+        {
+            "scomoNodeNm": "MAINCONFIG",
+            "srcVer": "***",
+            "tgtVer": "250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701727/7460474_20250728_1753681048832.json",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701727"
+        },
+        {
+            "scomoNodeNm": "MAINCONFIG",
+            "srcVer": "***",
+            "tgtVer": "250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701212/7460474_20250728_1753681048832.json",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701212"
+        },
+        {
+            "scomoNodeNm": "96560NI870_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.045.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701724/6387b98345664e02ac577e1871bfbd00.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701724"
+        },
+        {
+            "scomoNodeNm": "96560NI280_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.ccNC.001.001.240708",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544031/bada217c15414aabb28f560d3621ed89.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544031"
+        },
+        {
+            "scomoNodeNm": "96560NI280_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.ccNC.001.001.240708",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701213/bada217c15414aabb28f560d3621ed89.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701213"
+        },
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.250227.2503C13",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701725/5e101a48174c41fea995f10af212670a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701725"
+        },
+        {
+            "scomoNodeNm": "96560NI280_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.033.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701202/470199bfeace4051bf812babc1d07423.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701202"
+        },
+        {
+            "scomoNodeNm": "MAINCONFIG",
+            "srcVer": "***",
+            "tgtVer": "250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701714/7460474_20250728_1753681048832.json",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701714"
+        },
+        {
+            "scomoNodeNm": "96560NI280_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.240705.2425111",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701203/89b5643e203348fd9e65abb82d4a1162.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701203"
+        },
+        {
+            "scomoNodeNm": "96560NI280_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.ccNC.001.001.240708",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701715/bada217c15414aabb28f560d3621ed89.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701715"
+        },
+        {
+            "scomoNodeNm": "96560NI280_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.ccNC.001.001.240708",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701200/bada217c15414aabb28f560d3621ed89.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701200"
+        },
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.250227.2503C13",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701712/5e101a48174c41fea995f10af212670a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701712"
+        },
+        {
+            "scomoNodeNm": "96560NI280_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.129.240517",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701201/b71695c779304d379a8400386dc96cb0.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701201"
+        },
+        {
+            "scomoNodeNm": "96560NI870_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00215_00659",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701713/84206b82918b4e0789274b3d27dfd2a1.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701713"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250808",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701206/4419eb22b5c34c05873ad689a0705121.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701206"
+        },
+        {
+            "scomoNodeNm": "96560NI280_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.240705.2425111",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701718/89b5643e203348fd9e65abb82d4a1162.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701718"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250828",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701207/2e25d19c7c2b45d195f3fe833b48b5c3.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701207"
+        },
+        {
+            "scomoNodeNm": "96560NI280_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00165_00512",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701719/4e00b19336704444a8d7c30b33ee48de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701719"
+        },
+        {
+            "scomoNodeNm": "96560NI280_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00165_00512",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701204/4e00b19336704444a8d7c30b33ee48de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701204"
+        },
+        {
+            "scomoNodeNm": "96560NI280_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.129.240517",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701716/b71695c779304d379a8400386dc96cb0.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701716"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701205/0d818fed1864401d8f92da9cf86eb6ce.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701205"
+        },
+        {
+            "scomoNodeNm": "96560NI280_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.033.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701717/470199bfeace4051bf812babc1d07423.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701717"
+        },
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.250227.2503C13",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544040/5e101a48174c41fea995f10af212670a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544040"
+        },
+        {
+            "scomoNodeNm": "96560NI280_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.033.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700202/470199bfeace4051bf812babc1d07423.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700202"
+        },
+        {
+            "scomoNodeNm": "96560NI280_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.ccNC.001.001.240708",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701226/bada217c15414aabb28f560d3621ed89.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701226"
+        },
+        {
+            "scomoNodeNm": "96560NI870_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00215_00659",
+            "cdnUrl": "sumsNAS/package/sop/20250711/84206b82918b4e0789274b3d27dfd2a1.enc",
+            "cdnSuccYn": "N",
+            "retryCount": "1",
+            "scomoFilId": "544041"
+        },
+        {
+            "scomoNodeNm": "96560NI280_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.240705.2425111",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700203/89b5643e203348fd9e65abb82d4a1162.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700203"
+        },
+        {
+            "scomoNodeNm": "96560NI280_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.129.240517",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701227/b71695c779304d379a8400386dc96cb0.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701227"
+        },
+        {
+            "scomoNodeNm": "MAINCONFIG",
+            "srcVer": "***",
+            "tgtVer": "250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544042/7460474_20250728_1753681048832.json",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544042"
+        },
+        {
+            "scomoNodeNm": "96560NI280_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.ccNC.001.001.240708",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700200/bada217c15414aabb28f560d3621ed89.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700200"
+        },
+        {
+            "scomoNodeNm": "96560NI870_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00215_00659",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701224/84206b82918b4e0789274b3d27dfd2a1.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701224"
+        },
+        {
+            "scomoNodeNm": "96560NI280_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.129.240517",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700201/b71695c779304d379a8400386dc96cb0.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700201"
+        },
+        {
+            "scomoNodeNm": "MAINCONFIG",
+            "srcVer": "***",
+            "tgtVer": "250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701225/7460474_20250728_1753681048832.json",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701225"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250808",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700206/4419eb22b5c34c05873ad689a0705121.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700206"
+        },
+        {
+            "scomoNodeNm": "96560NI280_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00165_00512",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701230/4e00b19336704444a8d7c30b33ee48de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701230"
+        },
+        {
+            "scomoNodeNm": "96560NI870_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.152.250616",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700207/b3fcbe1fcd5c42588aff634396d7d3de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700207"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701231/0d818fed1864401d8f92da9cf86eb6ce.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701231"
+        },
+        {
+            "scomoNodeNm": "96560NI280_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00165_00512",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700204/4e00b19336704444a8d7c30b33ee48de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700204"
+        },
+        {
+            "scomoNodeNm": "96560NI280_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.033.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701228/470199bfeace4051bf812babc1d07423.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701228"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700205/0d818fed1864401d8f92da9cf86eb6ce.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700205"
+        },
+        {
+            "scomoNodeNm": "96560NI280_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.240705.2425111",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701229/89b5643e203348fd9e65abb82d4a1162.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701229"
+        },
+        {
+            "scomoNodeNm": "96560NI280_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.129.240517",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544032/b71695c779304d379a8400386dc96cb0.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544032"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701218/0d818fed1864401d8f92da9cf86eb6ce.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701218"
+        },
+        {
+            "scomoNodeNm": "96560NI280_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.033.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544033/470199bfeace4051bf812babc1d07423.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544033"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250808",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701219/4419eb22b5c34c05873ad689a0705121.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701219"
+        },
+        {
+            "scomoNodeNm": "96560NI280_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.240705.2425111",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544034/89b5643e203348fd9e65abb82d4a1162.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544034"
+        },
+        {
+            "scomoNodeNm": "96560NI280_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.240705.2425111",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701216/89b5643e203348fd9e65abb82d4a1162.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701216"
+        },
+        {
+            "scomoNodeNm": "96560NI280_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00165_00512",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544035/4e00b19336704444a8d7c30b33ee48de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544035"
+        },
+        {
+            "scomoNodeNm": "96560NI280_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00165_00512",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701217/4e00b19336704444a8d7c30b33ee48de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701217"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544036/0d818fed1864401d8f92da9cf86eb6ce.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544036"
+        },
+        {
+            "scomoNodeNm": "96560NI870_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.045.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701222/6387b98345664e02ac577e1871bfbd00.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701222"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250808",
+            "cdnUrl": "sumsNAS/package/sop/20250812/4419eb22b5c34c05873ad689a0705121.enc",
+            "cdnSuccYn": "N",
+            "retryCount": "1",
+            "scomoFilId": "544037"
+        },
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.250227.2503C13",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701223/5e101a48174c41fea995f10af212670a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701223"
+        },
+        {
+            "scomoNodeNm": "96560NI870_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.152.250616",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544038/b3fcbe1fcd5c42588aff634396d7d3de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544038"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250828",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701220/2e25d19c7c2b45d195f3fe833b48b5c3.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701220"
+        },
+        {
+            "scomoNodeNm": "96560NI870_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.045.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544039/6387b98345664e02ac577e1871bfbd00.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544039"
+        },
+        {
+            "scomoNodeNm": "96560NI870_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.152.250616",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701221/b3fcbe1fcd5c42588aff634396d7d3de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701221"
+        },
+        {
+            "scomoNodeNm": "96560NI280_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.240705.2425111",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701242/89b5643e203348fd9e65abb82d4a1162.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701242"
+        },
+        {
+            "scomoNodeNm": "96560NI280_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00165_00512",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701243/4e00b19336704444a8d7c30b33ee48de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701243"
+        },
+        {
+            "scomoNodeNm": "96560NI280_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.129.240517",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701240/b71695c779304d379a8400386dc96cb0.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701240"
+        },
+        {
+            "scomoNodeNm": "96560NI280_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.033.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701241/470199bfeace4051bf812babc1d07423.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701241"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250828",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701246/2e25d19c7c2b45d195f3fe833b48b5c3.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701246"
+        },
+        {
+            "scomoNodeNm": "96560NI870_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.152.250616",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701247/b3fcbe1fcd5c42588aff634396d7d3de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701247"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701244/0d818fed1864401d8f92da9cf86eb6ce.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701244"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250808",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701245/4419eb22b5c34c05873ad689a0705121.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701245"
+        },
+        {
+            "scomoNodeNm": "96560NI870_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00215_00659",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700210/84206b82918b4e0789274b3d27dfd2a1.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700210"
+        },
+        {
+            "scomoNodeNm": "96560NI870_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.152.250616",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701234/b3fcbe1fcd5c42588aff634396d7d3de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701234"
+        },
+        {
+            "scomoNodeNm": "MAINCONFIG",
+            "srcVer": "***",
+            "tgtVer": "250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700211/7460474_20250728_1753681048832.json",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700211"
+        },
+        {
+            "scomoNodeNm": "96560NI870_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.045.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701235/6387b98345664e02ac577e1871bfbd00.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701235"
+        },
+        {
+            "scomoNodeNm": "96560NI870_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.045.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700208/6387b98345664e02ac577e1871bfbd00.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700208"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250808",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701232/4419eb22b5c34c05873ad689a0705121.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701232"
+        },
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.250227.2503C13",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700209/5e101a48174c41fea995f10af212670a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700209"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250828",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701233/2e25d19c7c2b45d195f3fe833b48b5c3.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701233"
+        },
+        {
+            "scomoNodeNm": "MAINCONFIG",
+            "srcVer": "***",
+            "tgtVer": "250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701238/7460474_20250728_1753681048832.json",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701238"
+        },
+        {
+            "scomoNodeNm": "96560NI280_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.ccNC.001.001.240708",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701239/bada217c15414aabb28f560d3621ed89.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701239"
+        },
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.250227.2503C13",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701236/5e101a48174c41fea995f10af212670a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701236"
+        },
+        {
+            "scomoNodeNm": "96560NI870_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00215_00659",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701237/84206b82918b4e0789274b3d27dfd2a1.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701237"
+        },
+        {
+            "scomoNodeNm": "96560NI870_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00215_00659",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701250/84206b82918b4e0789274b3d27dfd2a1.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701250"
+        },
+        {
+            "scomoNodeNm": "MAINCONFIG",
+            "srcVer": "***",
+            "tgtVer": "250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701251/7460474_20250728_1753681048832.json",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701251"
+        },
+        {
+            "scomoNodeNm": "96560NI870_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.045.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701248/6387b98345664e02ac577e1871bfbd00.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701248"
+        },
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.250227.2503C13",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701249/5e101a48174c41fea995f10af212670a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701249"
+        },
+        {
+            "scomoNodeNm": "96560NI280_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.129.240517",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700282/b71695c779304d379a8400386dc96cb0.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700282"
+        },
+        {
+            "scomoNodeNm": "96560NI280_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.033.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700283/470199bfeace4051bf812babc1d07423.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700283"
+        },
+        {
+            "scomoNodeNm": "96560NI280_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.ccNC.001.001.240708",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544123/bada217c15414aabb28f560d3621ed89.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544123"
+        },
+        {
+            "scomoNodeNm": "96560NI280_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.ccNC.001.001.240708",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700281/bada217c15414aabb28f560d3621ed89.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700281"
+        },
+        {
+            "scomoNodeNm": "96560NI280_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.129.240517",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544124/b71695c779304d379a8400386dc96cb0.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544124"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700286/0d818fed1864401d8f92da9cf86eb6ce.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700286"
+        },
+        {
+            "scomoNodeNm": "96560NI280_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.033.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544125/470199bfeace4051bf812babc1d07423.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544125"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250808",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700287/4419eb22b5c34c05873ad689a0705121.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700287"
+        },
+        {
+            "scomoNodeNm": "96560NI280_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.240705.2425111",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544126/89b5643e203348fd9e65abb82d4a1162.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544126"
+        },
+        {
+            "scomoNodeNm": "96560NI280_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.240705.2425111",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700284/89b5643e203348fd9e65abb82d4a1162.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700284"
+        },
+        {
+            "scomoNodeNm": "96560NI280_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00165_00512",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544127/4e00b19336704444a8d7c30b33ee48de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544127"
+        },
+        {
+            "scomoNodeNm": "96560NI280_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00165_00512",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700285/4e00b19336704444a8d7c30b33ee48de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700285"
+        },
+        {
+            "scomoNodeNm": "96560NI280_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.129.240517",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544136/b71695c779304d379a8400386dc96cb0.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544136"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700298/0d818fed1864401d8f92da9cf86eb6ce.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700298"
+        },
+        {
+            "scomoNodeNm": "96560NI280_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.033.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544137/470199bfeace4051bf812babc1d07423.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544137"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250808",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700299/4419eb22b5c34c05873ad689a0705121.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700299"
+        },
+        {
+            "scomoNodeNm": "96560NI280_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.240705.2425111",
+            "cdnUrl": "sumsNAS/package/sop/20240717/89b5643e203348fd9e65abb82d4a1162.enc",
+            "cdnSuccYn": "N",
+            "retryCount": "1",
+            "scomoFilId": "544138"
+        },
+        {
+            "scomoNodeNm": "96560NI280_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.240705.2425111",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700296/89b5643e203348fd9e65abb82d4a1162.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700296"
+        },
+        {
+            "scomoNodeNm": "96560NI280_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00165_00512",
+            "cdnUrl": "sumsNAS/package/sop/20240711/4e00b19336704444a8d7c30b33ee48de.enc",
+            "cdnSuccYn": "N",
+            "retryCount": "1",
+            "scomoFilId": "544139"
+        },
+        {
+            "scomoNodeNm": "96560NI280_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00165_00512",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700297/4e00b19336704444a8d7c30b33ee48de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700297"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250710",
+            "cdnUrl": "sumsNAS/package/sop/20250711/0d818fed1864401d8f92da9cf86eb6ce.enc",
+            "cdnSuccYn": "N",
+            "retryCount": "1",
+            "scomoFilId": "544140"
+        },
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.250227.2503C13",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700302/5e101a48174c41fea995f10af212670a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700302"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250808",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544141/4419eb22b5c34c05873ad689a0705121.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544141"
+        },
+        {
+            "scomoNodeNm": "96560NI870_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00215_00659",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700303/84206b82918b4e0789274b3d27dfd2a1.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700303"
+        },
+        {
+            "scomoNodeNm": "96560NI870_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.152.250616",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544142/b3fcbe1fcd5c42588aff634396d7d3de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544142"
+        },
+        {
+            "scomoNodeNm": "96560NI870_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.152.250616",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700300/b3fcbe1fcd5c42588aff634396d7d3de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700300"
+        },
+        {
+            "scomoNodeNm": "96560NI870_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.045.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544143/6387b98345664e02ac577e1871bfbd00.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544143"
+        },
+        {
+            "scomoNodeNm": "96560NI870_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.045.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700301/6387b98345664e02ac577e1871bfbd00.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700301"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544128/0d818fed1864401d8f92da9cf86eb6ce.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544128"
+        },
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.250227.2503C13",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700290/5e101a48174c41fea995f10af212670a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700290"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250808",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544129/4419eb22b5c34c05873ad689a0705121.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544129"
+        },
+        {
+            "scomoNodeNm": "96560NI870_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00215_00659",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700291/84206b82918b4e0789274b3d27dfd2a1.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700291"
+        },
+        {
+            "scomoNodeNm": "96560NI870_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.152.250616",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544130/b3fcbe1fcd5c42588aff634396d7d3de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544130"
+        },
+        {
+            "scomoNodeNm": "96560NI870_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.152.250616",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700288/b3fcbe1fcd5c42588aff634396d7d3de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700288"
+        },
+        {
+            "scomoNodeNm": "96560NI870_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.045.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544131/6387b98345664e02ac577e1871bfbd00.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544131"
+        },
+        {
+            "scomoNodeNm": "96560NI870_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.045.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700289/6387b98345664e02ac577e1871bfbd00.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700289"
+        },
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.250227.2503C13",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544132/5e101a48174c41fea995f10af212670a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544132"
+        },
+        {
+            "scomoNodeNm": "96560NI280_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.129.240517",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700294/b71695c779304d379a8400386dc96cb0.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700294"
+        },
+        {
+            "scomoNodeNm": "96560NI870_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00215_00659",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544133/84206b82918b4e0789274b3d27dfd2a1.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544133"
+        },
+        {
+            "scomoNodeNm": "96560NI280_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.033.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700295/470199bfeace4051bf812babc1d07423.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700295"
+        },
+        {
+            "scomoNodeNm": "MAINCONFIG",
+            "srcVer": "***",
+            "tgtVer": "250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544134/7460474_20250728_1753681048832.json",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544134"
+        },
+        {
+            "scomoNodeNm": "MAINCONFIG",
+            "srcVer": "***",
+            "tgtVer": "250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700292/7460474_20250728_1753681048832.json",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700292"
+        },
+        {
+            "scomoNodeNm": "96560NI280_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.ccNC.001.001.240708",
+            "cdnUrl": "sumsNAS/package/sop/20240711/bada217c15414aabb28f560d3621ed89.enc",
+            "cdnSuccYn": "N",
+            "retryCount": "1",
+            "scomoFilId": "544135"
+        },
+        {
+            "scomoNodeNm": "96560NI280_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.ccNC.001.001.240708",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700293/bada217c15414aabb28f560d3621ed89.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700293"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544152/0d818fed1864401d8f92da9cf86eb6ce.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544152"
+        },
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.250227.2503C13",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700314/5e101a48174c41fea995f10af212670a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700314"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250808",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544153/4419eb22b5c34c05873ad689a0705121.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544153"
+        },
+        {
+            "scomoNodeNm": "96560NI870_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00215_00659",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700315/84206b82918b4e0789274b3d27dfd2a1.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700315"
+        },
+        {
+            "scomoNodeNm": "96560NI870_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.152.250616",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544154/b3fcbe1fcd5c42588aff634396d7d3de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544154"
+        },
+        {
+            "scomoNodeNm": "96560NI870_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.152.250616",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700312/b3fcbe1fcd5c42588aff634396d7d3de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700312"
+        },
+        {
+            "scomoNodeNm": "96560NI870_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.045.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544155/6387b98345664e02ac577e1871bfbd00.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544155"
+        },
+        {
+            "scomoNodeNm": "96560NI870_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.045.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700313/6387b98345664e02ac577e1871bfbd00.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700313"
+        },
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.250227.2503C13",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544156/5e101a48174c41fea995f10af212670a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544156"
+        },
+        {
+            "scomoNodeNm": "96560NI870_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00215_00659",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544157/84206b82918b4e0789274b3d27dfd2a1.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544157"
+        },
+        {
+            "scomoNodeNm": "MAINCONFIG",
+            "srcVer": "***",
+            "tgtVer": "250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544158/7460474_20250728_1753681048832.json",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544158"
+        },
+        {
+            "scomoNodeNm": "MAINCONFIG",
+            "srcVer": "***",
+            "tgtVer": "250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700316/7460474_20250728_1753681048832.json",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700316"
+        },
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.250227.2503C13",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544144/5e101a48174c41fea995f10af212670a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544144"
+        },
+        {
+            "scomoNodeNm": "96560NI280_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.129.240517",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700306/b71695c779304d379a8400386dc96cb0.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700306"
+        },
+        {
+            "scomoNodeNm": "96560NI870_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00215_00659",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544145/84206b82918b4e0789274b3d27dfd2a1.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544145"
+        },
+        {
+            "scomoNodeNm": "96560NI280_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.033.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700307/470199bfeace4051bf812babc1d07423.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700307"
+        },
+        {
+            "scomoNodeNm": "MAINCONFIG",
+            "srcVer": "***",
+            "tgtVer": "250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544146/7460474_20250728_1753681048832.json",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544146"
+        },
+        {
+            "scomoNodeNm": "MAINCONFIG",
+            "srcVer": "***",
+            "tgtVer": "250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700304/7460474_20250728_1753681048832.json",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700304"
+        },
+        {
+            "scomoNodeNm": "96560NI280_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.ccNC.001.001.240708",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544147/bada217c15414aabb28f560d3621ed89.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544147"
+        },
+        {
+            "scomoNodeNm": "96560NI280_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.ccNC.001.001.240708",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700305/bada217c15414aabb28f560d3621ed89.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700305"
+        },
+        {
+            "scomoNodeNm": "96560NI280_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.129.240517",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544148/b71695c779304d379a8400386dc96cb0.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544148"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700310/0d818fed1864401d8f92da9cf86eb6ce.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700310"
+        },
+        {
+            "scomoNodeNm": "96560NI280_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.033.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544149/470199bfeace4051bf812babc1d07423.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544149"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250808",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700311/4419eb22b5c34c05873ad689a0705121.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700311"
+        },
+        {
+            "scomoNodeNm": "96560NI280_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.240705.2425111",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544150/89b5643e203348fd9e65abb82d4a1162.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544150"
+        },
+        {
+            "scomoNodeNm": "96560NI280_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.240705.2425111",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700308/89b5643e203348fd9e65abb82d4a1162.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700308"
+        },
+        {
+            "scomoNodeNm": "96560NI280_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00165_00512",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544151/4e00b19336704444a8d7c30b33ee48de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544151"
+        },
+        {
+            "scomoNodeNm": "96560NI280_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00165_00512",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700309/4e00b19336704444a8d7c30b33ee48de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700309"
+        },
+        {
+            "scomoNodeNm": "96560NI280_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.ccNC.001.001.240708",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701354/bada217c15414aabb28f560d3621ed89.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701354"
+        },
+        {
+            "scomoNodeNm": "96560NI280_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.129.240517",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701355/b71695c779304d379a8400386dc96cb0.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701355"
+        },
+        {
+            "scomoNodeNm": "96560NI280_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00165_00512",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701358/4e00b19336704444a8d7c30b33ee48de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701358"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701359/0d818fed1864401d8f92da9cf86eb6ce.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701359"
+        },
+        {
+            "scomoNodeNm": "96560NI280_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.033.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701356/470199bfeace4051bf812babc1d07423.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701356"
+        },
+        {
+            "scomoNodeNm": "96560NI280_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.240705.2425111",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701357/89b5643e203348fd9e65abb82d4a1162.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701357"
+        },
+        {
+            "scomoNodeNm": "96560NI280_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.129.240517",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544184/b71695c779304d379a8400386dc96cb0.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544184"
+        },
+        {
+            "scomoNodeNm": "96560NI280_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.033.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544185/470199bfeace4051bf812babc1d07423.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544185"
+        },
+        {
+            "scomoNodeNm": "96560NI280_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.240705.2425111",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544186/89b5643e203348fd9e65abb82d4a1162.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544186"
+        },
+        {
+            "scomoNodeNm": "96560NI280_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00165_00512",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544187/4e00b19336704444a8d7c30b33ee48de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544187"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544188/0d818fed1864401d8f92da9cf86eb6ce.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544188"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250808",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544189/4419eb22b5c34c05873ad689a0705121.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544189"
+        },
+        {
+            "scomoNodeNm": "96560NI870_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.152.250616",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544190/b3fcbe1fcd5c42588aff634396d7d3de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544190"
+        },
+        {
+            "scomoNodeNm": "96560NI870_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.045.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544191/6387b98345664e02ac577e1871bfbd00.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544191"
+        },
+        {
+            "scomoNodeNm": "96560NI870_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.152.250616",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701362/b3fcbe1fcd5c42588aff634396d7d3de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701362"
+        },
+        {
+            "scomoNodeNm": "96560NI870_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.045.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701363/6387b98345664e02ac577e1871bfbd00.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701363"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250808",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701360/4419eb22b5c34c05873ad689a0705121.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701360"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250828",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701361/2e25d19c7c2b45d195f3fe833b48b5c3.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701361"
+        },
+        {
+            "scomoNodeNm": "MAINCONFIG",
+            "srcVer": "***",
+            "tgtVer": "250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701366/7460474_20250728_1753681048832.json",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701366"
+        },
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.250227.2503C13",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701364/5e101a48174c41fea995f10af212670a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701364"
+        },
+        {
+            "scomoNodeNm": "96560NI280_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.ccNC.001.001.240708",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544183/bada217c15414aabb28f560d3621ed89.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544183"
+        },
+        {
+            "scomoNodeNm": "96560NI870_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00215_00659",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701365/84206b82918b4e0789274b3d27dfd2a1.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701365"
+        },
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.250227.2503C13",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544192/5e101a48174c41fea995f10af212670a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544192"
+        },
+        {
+            "scomoNodeNm": "96560NI870_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00215_00659",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544193/84206b82918b4e0789274b3d27dfd2a1.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544193"
+        },
+        {
+            "scomoNodeNm": "MAINCONFIG",
+            "srcVer": "***",
+            "tgtVer": "250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/544194/7460474_20250728_1753681048832.json",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "544194"
+        },
+        {
+            "scomoNodeNm": "96560NI280_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.ccNC.001.001.240708",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701403/bada217c15414aabb28f560d3621ed89.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701403"
+        },
+        {
+            "scomoNodeNm": "96560NI280_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.129.240517",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700382/b71695c779304d379a8400386dc96cb0.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700382"
+        },
+        {
+            "scomoNodeNm": "96560NI280_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.240705.2425111",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701406/89b5643e203348fd9e65abb82d4a1162.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701406"
+        },
+        {
+            "scomoNodeNm": "96560NI280_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.033.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700383/470199bfeace4051bf812babc1d07423.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700383"
+        },
+        {
+            "scomoNodeNm": "96560NI280_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00165_00512",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701407/4e00b19336704444a8d7c30b33ee48de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701407"
+        },
+        {
+            "scomoNodeNm": "96560NI280_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.129.240517",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701404/b71695c779304d379a8400386dc96cb0.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701404"
+        },
+        {
+            "scomoNodeNm": "96560NI280_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN.CHN.ccNC.001.001.240708",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700381/bada217c15414aabb28f560d3621ed89.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700381"
+        },
+        {
+            "scomoNodeNm": "96560NI280_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.033.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701405/470199bfeace4051bf812babc1d07423.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701405"
+        },
+        {
+            "scomoNodeNm": "MAINCONFIG",
+            "srcVer": "***",
+            "tgtVer": "250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700392/7460474_20250728_1753681048832.json",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700392"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700386/0d818fed1864401d8f92da9cf86eb6ce.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700386"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250828",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701410/2e25d19c7c2b45d195f3fe833b48b5c3.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701410"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250808",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700387/4419eb22b5c34c05873ad689a0705121.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700387"
+        },
+        {
+            "scomoNodeNm": "96560NI870_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.152.250616",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701411/b3fcbe1fcd5c42588aff634396d7d3de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701411"
+        },
+        {
+            "scomoNodeNm": "96560NI280_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.240705.2425111",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700384/89b5643e203348fd9e65abb82d4a1162.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700384"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701408/0d818fed1864401d8f92da9cf86eb6ce.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701408"
+        },
+        {
+            "scomoNodeNm": "96560NI280_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00165_00512",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700385/4e00b19336704444a8d7c30b33ee48de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700385"
+        },
+        {
+            "scomoNodeNm": "96560NI870_1",
+            "srcVer": "###",
+            "tgtVer": "NE1KN26.CHN.ccNC.001.001.250808",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701409/4419eb22b5c34c05873ad689a0705121.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701409"
+        },
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.250227.2503C13",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700390/5e101a48174c41fea995f10af212670a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700390"
+        },
+        {
+            "scomoNodeNm": "96560NI870_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00215_00659",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701414/84206b82918b4e0789274b3d27dfd2a1.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701414"
+        },
+        {
+            "scomoNodeNm": "96560NI870_7",
+            "srcVer": "***",
+            "tgtVer": "ccNC.VR.CHN.00215_00659",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700391/84206b82918b4e0789274b3d27dfd2a1.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700391"
+        },
+        {
+            "scomoNodeNm": "MAINCONFIG",
+            "srcVer": "***",
+            "tgtVer": "250710",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701415/7460474_20250728_1753681048832.json",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701415"
+        },
+        {
+            "scomoNodeNm": "96560NI870_2",
+            "srcVer": "***",
+            "tgtVer": "NE1KN26.CHN.152.250616",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700388/b3fcbe1fcd5c42588aff634396d7d3de.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700388"
+        },
+        {
+            "scomoNodeNm": "96560NI870_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.045.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701412/6387b98345664e02ac577e1871bfbd00.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701412"
+        },
+        {
+            "scomoNodeNm": "96560NI870_3",
+            "srcVer": "***",
+            "tgtVer": "892.10-90-3.045.000.000",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/700389/6387b98345664e02ac577e1871bfbd00.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "700389"
+        },
+        {
+            "scomoNodeNm": "96560NI870_5",
+            "srcVer": "***",
+            "tgtVer": "ccNC.CHN.HMC.250227.2503C13",
+            "cdnUrl": "https://cdn-avnt-hyundai.hmgmobility.com.cn/avnt_scomo_prd/NE1KN/ICHN/C/SCOMO/701413/5e101a48174c41fea995f10af212670a.enc",
+            "cdnSuccYn": "Y",
+            "retryCount": "0",
+            "scomoFilId": "701413"
+        }
+    ]
+}
